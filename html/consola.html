@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consolas Nintendo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nintendo">
+        <div class="container">
+            <a class="navbar-brand" href="./../index.html">Nintendo Store</a>
+
+            <div class="navbar-nav">
+                <a class="nav-link active fw-bold" href="consola.html">Consolas</a>
+                <a class="nav-link" href="./juegos.html">Juegos</a>
+                <a class="nav-link" href="./Accesorios.html">Accesorios</a>
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./carrito.html">Carrito</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-4">
+            Consolas Nintendo
+        </h1>
+
+        <div class="text-center mb-5">
+            <a href="./3 modos de juegos diferentes.html" class="btn btn-danger btn-lg px-4 py-2 shadow-sm rounded-pill fw-bold">
+                Descubre 3 modos de juegos diferentes
+            </a>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="./../img/oled.jpeg" class="card-img-top" alt="Nintendo Switch OLED">
+                    <div class="card-body">
+                        <h5>Nintendo Switch OLED</h5>
+                        <p>Pantalla OLED de 7 pulgadas.</p>
+                        <h4>$349.99</h4>
+                        <button class="btn btn-danger" onclick="agregarCarrito('Nintendo Switch OLED', 349.99, './../img/oled.jpeg')">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="./../img/lite.avif" class="card-img-top" alt="Nintendo Switch Lite">
+                    <div class="card-body">
+                        <h5>Nintendo Switch Lite</h5>
+                        <p>Versión portátil y ligera.</p>
+                        <h4>$199.99</h4>
+                        <button class="btn btn-danger" onclick="agregarCarrito('Nintendo Switch Lite', 199.99, './../img/lite.avif')">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="./../img/switch 2.avif" class="card-img-top" alt="Nintendo Switch 2">
+                    <div class="card-body">
+                        <h5>Nintendo Switch 2</h5>
+                        <p>Nueva generación de Nintendo.</p>
+                        <h4>$449.99</h4>
+                        <button class="btn btn-danger" onclick="agregarCarrito('Nintendo Switch 2', 449.99, './../img/switch 2.avif')">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-2">
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="./../img/Consola Nintendo Switch Lite Gris.avif" class="card-img-top" alt="Nintendo Switch Lite Gris">
+                    <div class="card-body">
+                        <h5>Nintendo Switch Lite – Gris</h5>
+                        <p>Versión portátil en color gris clásico.</p>
+                        <h4>$199.99</h4>
+                        <button class="btn btn-danger" onclick="agregarCarrito('Nintendo Switch Lite – Gris', 199.99, './../img/Consola Nintendo Switch Lite Gris.avif')">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="./../img/Consola Nintendo Switch Lite Coral.avif" class="card-img-top" alt="Nintendo Switch Lite Coral">
+                    <div class="card-body">
+                        <h5>Nintendo Switch Lite – Coral</h5>
+                        <p>Estilo vibrante y portátil en color coral.</p>
+                        <h4>$199.99</h4>
+                        <button class="btn btn-danger" onclick="agregarCarrito('Nintendo Switch Lite – Coral', 199.99, './../img/Consola Nintendo Switch Lite Coral.avif')">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow">
+                    <img src="./../img/Consola Nintendo Switch Lite Azul.avif" class="card-img-top" alt="Nintendo Switch Lite Azul">
+                    <div class="card-body">
+                        <h5>Nintendo Switch Lite – Azul</h5>
+                        <p>Edición elegante en tono azul galáctico.</p>
+                        <h4>$199.99</h4>
+                        <button class="btn btn-danger" onclick="agregarCarrito('Nintendo Switch Lite – Azul', 199.99, './../img/Consola Nintendo Switch Lite Azul.avif')">
+                            Agregar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center mt-3">
+            <a href="./../index.html" class="btn btn-secondary">
+                Volver al Inicio
+            </a>
+        </div>
+
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-auto">
+        <h5>Nintendo Store</h5>
+        <p>Proyecto académico 2026</p>
+    </footer>
+
+    <script src="./../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
